@@ -1,0 +1,28 @@
+{
+  "name": "@akong/chat-shell",
+  "version": "0.1.0",
+  "private": true,
+  "description": "阿空 agent chat 前端通用壳子 · ChatShell 组件 + useChat hook + api client 工厂",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@akong/ui-react": "*"
+  },
+  "devDependencies": {
+    "@akong/ui-react": "file:../akong-ui-react",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^8.0.10"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
